@@ -11,7 +11,7 @@ const App = () => {
   const [isModalOpen, setIsModalOpen] = useState(false); const [currentPayment, setCurrentPayment] = useState(null);
   const [isAuthLoading, setIsAuthLoading] = useState(false);
 
-  const API_URL = 'http://localhost:5000/api';
+  const API_URL = "https://semester-project-k7nj.onrender.com" //'http://localhost:5000/api'; // Backend API URL
 
   // Custom function to handle API calls with authorization
   const apiCall = async (endpoint, method, body = null) => {
